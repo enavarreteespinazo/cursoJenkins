@@ -1,6 +1,7 @@
 package es.curso;
 
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -21,7 +22,7 @@ public class AppTest
     @Test
     public void pruebaDoblar(){
         int resultado=App.doblar(5);
-        assertEquals( resultado, 10 );
+        assertEquals(resultado, 10 );
     }
 
     @Test
