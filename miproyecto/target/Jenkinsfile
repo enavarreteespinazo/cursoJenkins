@@ -4,7 +4,7 @@ pipeline{
         stage('Repositorio'){
             steps{
                 echo 'Repositorio clonar'
-                git branch: 'desarrollo', url: 'https://github.com/enavarreteespinazo/cursoJenkins.git'
+                git branch:'desarrollo', url: 'https://github.com/enavarreteespinazo/cursoJenkins.git'
             }
         }
         stage('Empaquetado'){
